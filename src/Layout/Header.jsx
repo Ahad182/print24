@@ -5,7 +5,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaAngleRight } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
-
+import companyLogo from "../assets/images/logo.png"
+import phoneIcone from "../assets/images/phoneicon.png"
 const Header = () => {
   const location = useLocation()
   const [SubMenu, SetSubMenu] = useState(false);
@@ -36,7 +37,7 @@ const Header = () => {
             </div>
             <div className="logo ">
               <img
-                src="../src/assets/images/logo.png"
+                src={companyLogo}
                 alt=""
                 className="max-w-[140px] relative z-[200]"
               />
@@ -65,7 +66,7 @@ const Header = () => {
                 bgColor="bg-white"
                 icon={
                   <img
-                    src="../src/assets/images/phoneicon.png"
+                    src={phoneIcone}
                     alt=""
                     className="w-7 object-cover"
                   />
@@ -107,7 +108,7 @@ const Header = () => {
         <div className="container ">
           <div className="flex items-center justify-between">
             <img
-              src="../src/assets/images/logo.png"
+              src={companyLogo}
               alt=""
               className="w-[140px] "
             />

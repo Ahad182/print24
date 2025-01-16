@@ -1,10 +1,11 @@
 import React from 'react'
 import MyButton from './Button'
 import { FaArrowRightLong } from "react-icons/fa6";
+import heroImage from "../../assets/images/hero1.webp"
 
 const Hero = () => {
   return (
-    <div className=' hero w-full h-dvh overflow-x-hidden flex items-center px-6 md:px-20'>
+    <div className={` hero w-full h-dvh overflow-x-hidden flex items-center px-6 md:px-20`} style={{backgroundImage: `url(${heroImage})` }}>
             <div className="hero-content flex flex-col justify-center w-full md:w-[50%] mt-24">
                 <h1 className='font-bold text-3xl md:text-5xl text-white'>Product Packaging <br />
                 at its Peak</h1>

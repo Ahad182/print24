@@ -1,6 +1,7 @@
 import React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
+import contactHeroImage from "../assets/images/contactbanner.webp"
 // import p from "@mui/material/p";
 import Typography from "@mui/material/Typography";
 import { FaChevronDown } from "react-icons/fa";
@@ -10,7 +11,7 @@ const ContactUs = () => {
       {/* hero section  */}
       <div className=" w-full h-full relative flex items-center justify-center">
         <img
-          src="../../src/assets/images/contactbanner.webp"
+          src={contactHeroImage}
           alt=""
           className="w-full h-screen  relative object-center object-cover  md:object-fill pt-[75px] md:pt-44 z-[-50]"
         />
