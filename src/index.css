@@ -47,7 +47,6 @@ body{
     border-radius: 10px;
 }
 .hero{
-    /* background-image: url("./src/assets/images/hero1.webp"); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,7 +111,7 @@ body{
 
 
   .contact-hero{
-    background-image: url("./src/assets/images/hero1.webp");
+    background-image: url("../src/assets/images/hero1.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
