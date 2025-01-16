@@ -6,7 +6,7 @@ import FoodPackaging from "../../assets/images/boxpacking/FoodPackaging.webp"
 import ind3 from "../../assets/images/boxpacking/ind3.webp"
 import PharmaceuticalPackaging from "../../assets/images/boxpacking/PharmaceuticalPackaging.webp"
 import VapeandGummyPackaging from "../../assets/images/boxpacking/VapeandGummyPackaging.webp"
-
+import arrow from "../../assets/images/arr_home.png"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -37,7 +37,7 @@ const BoxPacking = () => {
 
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
-                                <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300 ' />
+                                <img src={arrow} alt="img" className='w-7 h-7 text-gray-300 ' />
                             </div>
                             <div className="px-5 my-4 font-semibold text-gray-600">
                                 Our packaging company prints and produces folding cartons of cardboard, Kraft, corrugated, and rigid materials. Get them today!
@@ -49,7 +49,7 @@ const BoxPacking = () => {
                             <div className='overflow-hidden '><img src={FoodPackaging} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
-                                <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
+                                <img src={arrow} alt="img" className='w-7 h-7 text-gray-300' />
                             </div>
                             <div className="px-5 my-4 font-semibold text-gray-600">
                                 Our packaging company prints and produces folding cartons of cardboard, Kraft, corrugated, and rigid materials. Get them today!
@@ -61,7 +61,7 @@ const BoxPacking = () => {
                             <div className='overflow-hidden '><img src={ind3} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
-                                <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
+                                <img src={arrow} alt="img" className='w-7 h-7 text-gray-300' />
                             </div>
                             <div className="px-5 my-4 font-semibold text-gray-600">
                                 Our packaging company prints and produces folding cartons of cardboard, Kraft, corrugated, and rigid materials. Get them today!
@@ -73,7 +73,7 @@ const BoxPacking = () => {
                             <div className='overflow-hidden '><img src={PharmaceuticalPackaging} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
-                                <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
+                                <img src={arrow} alt="img" className='w-7 h-7 text-gray-300' />
                             </div>
                             <div className="px-5 my-4 font-semibold text-gray-600">
                                 Our packaging company prints and produces folding cartons of cardboard, Kraft, corrugated, and rigid materials. Get them today!
@@ -85,7 +85,7 @@ const BoxPacking = () => {
                             <div className='overflow-hidden '><img src={VapeandGummyPackaging} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
-                                <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
+                                <img src={arrow} alt="img" className='w-7 h-7 text-gray-300' />
                             </div>
                             <div className="px-5 my-4 font-semibold text-gray-600">
                                 Our packaging company prints and produces folding cartons of cardboard, Kraft, corrugated, and rigid materials. Get them today!
