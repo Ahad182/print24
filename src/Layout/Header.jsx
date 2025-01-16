@@ -4,7 +4,7 @@ import { FiSearch } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaAngleRight } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import companyLogo from "../assets/images/logo.png"
 import phoneIcone from "../assets/images/phoneicon.png"
 const Header = () => {
@@ -36,11 +36,12 @@ const Header = () => {
               <GiHamburgerMenu />
             </div>
             <div className="logo ">
-              <img
+              <NavLink to="/"><img
                 src={companyLogo}
                 alt=""
                 className="max-w-[140px] relative z-[200]"
-              />
+              /></NavLink>
+              
             </div>
             <div className="searchbar hidden md:block relative w-[600px] h-full  border-2 border-white rounded-full">
               <div className="searchbox w-full ">
@@ -107,11 +108,14 @@ const Header = () => {
       <div className={`w-full h-screen overflow-y-auto bg-black py-9 px-4 text-white  fixed  top-0 left-0 ${toggle?"translate-x-0":" translate-x-[-100%]"} transition-transform duration-1000 ease-in-out z-[500]`}>
         <div className="container ">
           <div className="flex items-center justify-between">
+            <NavLink to="/">
             <img
               src={companyLogo}
               alt=""
               className="w-[140px] "
             />
+            </NavLink>
+            
             <div className="p-2 border border-white cursor-pointer text-xl font-semibold" onClick={()=>SetToggle(!toggle)}>
               Close
             </div>

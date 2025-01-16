@@ -1,6 +1,11 @@
 import React from 'react'
 // import Swiper core and required modules
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Apparel_and_Fashion_Packaging from "../../assets/images/boxpacking/Apparel-and-Fashion-Packaging.webp"
+import FoodPackaging from "../../assets/images/boxpacking/FoodPackaging.webp"
+import ind3 from "../../assets/images/boxpacking/ind3.webp"
+import PharmaceuticalPackaging from "../../assets/images/boxpacking/PharmaceuticalPackaging.webp"
+import VapeandGummyPackaging from "../../assets/images/boxpacking/VapeandGummyPackaging.webp"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -28,7 +33,7 @@ const BoxPacking = () => {
                     }}>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden'><img src="../../src/assets/images/boxpacking/Apparel-and-Fashion-Packaging.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden'><img src={Apparel_and_Fashion_Packaging} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
 
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
@@ -41,7 +46,7 @@ const BoxPacking = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden '><img src="../../src/assets/images/boxpacking/FoodPackaging.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden '><img src={FoodPackaging} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
                                 <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
@@ -53,7 +58,7 @@ const BoxPacking = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden '><img src="../../src/assets/images/boxpacking/ind3.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden '><img src={ind3} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
                                 <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
@@ -65,7 +70,7 @@ const BoxPacking = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden '><img src="../../src/assets/images/boxpacking/PharmaceuticalPackaging.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden '><img src={PharmaceuticalPackaging} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
                                 <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
@@ -77,7 +82,7 @@ const BoxPacking = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden '><img src="../../src/assets/images/boxpacking/VapeandGummyPackaging.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden '><img src={VapeandGummyPackaging} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
                                 <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />

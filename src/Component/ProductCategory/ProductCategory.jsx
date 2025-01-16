@@ -1,7 +1,13 @@
 import React from "react";
 // import Swiper core and required modules
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import boxandpackaging from "../../assets/images/products/boxandpackaging.webp"
+import businesscards from "../../assets/images/products/businesscards.webp"
+import designandlogo from "../../assets/images/products/designandlogo.webp"
+import labelsandstickers from "../../assets/images/products/labelsandstickers.webp"
+import  mylarbags from "../../assets/images/products/mylarbags.webp"
+import  printproducts from  "../../assets/images/products/printproducts.webp"
+import signandbanners from "../../assets/images/products/signandbanners.webp"
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -51,7 +57,7 @@ const ProductCategory = () => {
             <div className="w-[350px] overflow-hidden rounded-3xl">
               <div className="overflow-hidden ">
                 <img
-                  src="../../src/assets/images/products/boxandpackaging.webp"
+                  src={boxandpackaging}
                   alt=""
                   className="hover:scale-110 transition-all duration-500 ease-in-out"
                 />
@@ -66,13 +72,13 @@ const ProductCategory = () => {
             <div className="w-[350px] overflow-hidden rounded-3xl">
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="../../src/assets/images/products/businesscards.webp"
+                  src={businesscards}
                   alt=""
                   className="hover:scale-110 transition-all duration-500 ease-in-out"
                 />
               </div>
               <h1 className="text-black text-2xl text-center my-4 font-bold">
-                Boxes & Packagings
+                Business Cards
               </h1>
             </div>
           </SwiperSlide>
@@ -80,13 +86,13 @@ const ProductCategory = () => {
             <div className="w-[350px] overflow-hidden rounded-3xl">
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="../../src/assets/images/products/designandlogo.webp"
+                  src={designandlogo}
                   alt=""
                   className="hover:scale-110 transition-all duration-500 ease-in-out"
                 />
               </div>
               <h1 className="text-black text-2xl text-center my-4 font-bold">
-                Boxes & Packagings
+                Logo Design
               </h1>
             </div>
           </SwiperSlide>
@@ -94,13 +100,13 @@ const ProductCategory = () => {
             <div className="w-[350px] overflow-hidden rounded-3xl">
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="../../src/assets/images/products/labelsandstickers.webp"
+                  src={labelsandstickers}
                   alt=""
                   className="hover:scale-110 transition-all duration-500 ease-in-out"
                 />
               </div>
               <h1 className="text-black text-2xl text-center my-4 font-bold">
-                Boxes & Packagings
+                Lables & Stickers
               </h1>
             </div>
           </SwiperSlide>
@@ -108,13 +114,13 @@ const ProductCategory = () => {
             <div className="w-[350px] overflow-hidden rounded-3xl">
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="../../src/assets/images/products/mylarbags.webp"
+                  src={mylarbags}
                   alt=""
                   className="hover:scale-110 transition-all duration-500 ease-in-out"
                 />
               </div>
               <h1 className="text-black text-2xl text-center my-4 font-bold">
-                Boxes & Packagings
+                Mylar Bags
               </h1>
             </div>
           </SwiperSlide>
@@ -122,13 +128,13 @@ const ProductCategory = () => {
             <div className="w-[350px] overflow-hidden rounded-3xl">
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="../../src/assets/images/products/printproducts.webp"
+                  src={printproducts}
                   alt=""
                   className="hover:scale-110 transition-all duration-500 ease-in-out"
                 />
               </div>
               <h1 className="text-black text-2xl text-center my-4 font-bold">
-                Boxes & Packagings
+                Print Products
               </h1>
             </div>
           </SwiperSlide>
@@ -136,13 +142,13 @@ const ProductCategory = () => {
             <div className="w-[350px] overflow-hidden rounded-3xl">
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="../../src/assets/images/products/signandbanners.webp"
+                  src={signandbanners}
                   alt=""
                   className="hover:scale-110 transition-all duration-500 ease-in-out"
                 />
               </div>
               <h1 className="text-black text-2xl text-center my-4 font-bold">
-                Boxes & Packagings
+                Sign & Banners
               </h1>
             </div>
           </SwiperSlide>

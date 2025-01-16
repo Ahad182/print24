@@ -1,6 +1,11 @@
 import React from 'react'
 // import Swiper core and required modules
 import { Swiper, SwiperSlide } from 'swiper/react';
+import ess1 from "../../assets/images/bags/ess1.webp"
+import ess2 from "../../assets/images/bags/ess2.webp"
+import ess3 from "../../assets/images/bags/ess3.webp"
+import ess4 from "../../assets/images/bags/ess4.webp"
+import ess7 from "../../assets/images/bags/ess7.webp"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -27,7 +32,7 @@ const ProductList = () => {
                     }}>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden'><img src="../../src/assets/images/bags/ess1.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden'><img src={ess1} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
 
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
@@ -40,7 +45,7 @@ const ProductList = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden '><img src="../../src/assets/images/bags/ess2.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden '><img src={ess2} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
                                 <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
@@ -52,7 +57,7 @@ const ProductList = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden '><img src="../../src/assets/images/bags/ess3.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden '><img src={ess3} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
                                 <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
@@ -64,7 +69,7 @@ const ProductList = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden '><img src="../../src/assets/images/bags/ess4.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden '><img src={ess4} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
                                 <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
@@ -76,7 +81,7 @@ const ProductList = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='w-[350px] overflow-hidden rounded-3xl'>
-                            <div className='overflow-hidden '><img src="../../src/assets/images/bags/ess7.webp" alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
+                            <div className='overflow-hidden '><img src={ess7} alt="" className='hover:scale-110 transition-all duration-500 ease-in-out' /></div>
                             <div className="flex items-center gap-9 mt-4 px-5">
                                 <h3 className='text-xl font-bold'>Folding Cartons</h3>
                                 <img src="../../src/assets/images/arr_home.png" alt="img" className='w-7 h-7 text-gray-300' />
