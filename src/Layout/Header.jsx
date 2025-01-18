@@ -174,7 +174,7 @@ const Header = () => {
 
       <div className={`searchpage w-full h-full  absolute top-0 left-0 overflow-x-hidden ${searchPage?" flex justify-center":"hidden"}`} >
         <form action="" className="mt-52" onSubmit={()=>SetSearchPage(!searchPage)} >
-          <input type="search" name="search" id="" placeholder="Search.." className="w-[400px] p-3 bg-gray-300 placeholder:text-black outline-none rounded-md 
+          <input type="search" name="search" id="" placeholder="Search.." className="w-[200px] md:w-[400px] p-3 bg-gray-300 placeholder:text-black outline-none rounded-md 
           " />
         </form>
       </div>
