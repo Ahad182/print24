@@ -26,13 +26,13 @@ const Header = () => {
   
   return (
     <>
-      <header className={`w-full  overflow-x-hidden  absolute top-0 left-0   border-b-[1px] border-white ${scrollPosition < 10 ?`${location.pathname==="/contact/" || location.pathname==="/shopping-policy/" || location.pathname==="/term-and-condition/" || location.pathname==="/return-policy/" || location.pathname==="/privacy-policy/" || location.pathname==="/faq/" ? "bg-slate-800":"bg-transparent"}`:"bg-[#885f34]"}   transition-colors duration-1000 ease-in-out`}>
+      <header className={`w-full  overflow-x-hidden  absolute top-0 left-0   border-b-[1px] border-white ${scrollPosition < 10 ?`${location.pathname==="/contact/" || location.pathname==="/shopping-policy/" || location.pathname==="/term-and-condition/" || location.pathname==="/return-policy/" || location.pathname==="/privacy-policy/" || location.pathname==="/faq/" ? "bg-slate-800":"bg-transparent"}`:"bg-[#885f34]"}   transition-colors duration-1000 ease-in-out z-[100]`}>
         <nav className=" mt-4 md:pt-4 px-4 md:px-20 text-white font-serif font-bold">
 
           {/* top header  */}
 
           <div className="top-header pb-5 flex items-center justify-between">
-            <div className="text-2xl md:hidden" onClick={()=>SetToggle(!toggle)}>
+            <div className="text-2xl lg:hidden" onClick={()=>SetToggle(!toggle)}>
               <GiHamburgerMenu />
             </div>
             <div className="logo ">
@@ -43,7 +43,7 @@ const Header = () => {
               /></NavLink>
               
             </div>
-            <div className="searchbar hidden md:block relative w-[600px] h-full  border-2 border-white rounded-full">
+            <div className="searchbar hidden md:block relative md:w-[400px] lg:w-[500px] h-full  border-2 border-white rounded-full">
               <div className="searchbox w-full ">
                 <form action="" className="flex items-center">
                   <input
@@ -61,7 +61,7 @@ const Header = () => {
                 </form>
               </div>
             </div>
-            <div className="call-button mr-4  hidden md:block">
+            <div className="call-button mr-4  hidden lg:block">
               <MyButton
                 title="Let's Talk"
                 bgColor="bg-white"
@@ -82,7 +82,7 @@ const Header = () => {
           
          {/* main header start  */}
 
-              <div className="main-header w-full  font-semibold mt-3 text-gray-200 hidden md:block
+              <div className="main-header w-full  font-semibold mt-3 text-gray-200 hidden lg:block
               ">
                 <ul className="nav-links relative flex items-center justify-between gap-5 font-bold text-center">
                   <li className="max-w-[80px]   pb-2"><a href="">Christmas Boxes</a></li>

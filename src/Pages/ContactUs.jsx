@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 import { FaChevronDown } from "react-icons/fa";
 const ContactUs = () => {
   return (
-    <div className="w-full  relative z-[-1]  ">
+    <div className="w-full  relative   ">
       {/* hero section  */}
       <div className=" w-full h-full relative flex items-center justify-center">
         <img
@@ -130,8 +130,8 @@ const ContactUs = () => {
         <h4 className="text-center font-bold text-3xl my-10">
           Popular Questions
         </h4>
-        <div className="w-full md:w-[80%] mx-auto  p-3 grid md:grid-cols-2 gap-20 md:mt-20 ">
-          <div className="left flex flex-col gap-11 ">
+        <div className="w-full relative  md:w-[80%] mx-auto  p-3 grid md:grid-cols-2 gap-20 md:mt-20 ">
+          <div className="left  z-[3000] flex flex-col gap-11 ">
             <Accordion>
               <AccordionSummary
                 expandIcon={<FaChevronDown className="font-bold text-2xl" />}
